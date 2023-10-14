@@ -16,7 +16,9 @@
         "default_title": "Clickless Verizon",
         "default_icon": "logo/verizon-logo-32.png"
     },
-    "permissions": [],
+    "permissions": [
+        "storage", "activeTab", "<all_urls>"
+      ],
     "host_permissions": [
         "*://*/*"
     ],
